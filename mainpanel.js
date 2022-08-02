@@ -17,5 +17,5 @@ c.fillText("Home", 30, 32.5);
 c.fill();
 
 c.beginPath();
-c.fillText("Game", 90, 32.5);
+c.fillText("Game", 110, 32.5);
 c.fill();
