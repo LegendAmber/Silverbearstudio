@@ -23,7 +23,7 @@ c.fill();
 //Enters spacing
 c.beginPath();
 c.strokeStyle = 'white';
-c.lineWidth = 5;
-c.moveTo(100, 28);
-c.lineTo(100, 37);
+c.lineWidth = 3;
+c.moveTo(100, 15);
+c.lineTo(100, 50);
 c.stroke();
