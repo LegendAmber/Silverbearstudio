@@ -13,5 +13,5 @@ c.fill();
 c.beginPath();
 c.fillStyle = 'white';
 c.font = 'bold 25px firasans';
-c.fillText("Home", 30, 30);
+c.fillText("Home", 30, 32.5);
 c.fill();
