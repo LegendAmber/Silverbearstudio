@@ -12,6 +12,6 @@ c.fill();
 //Enters new text
 c.beginPath();
 c.fillStyle = 'white';
-c.font = 'bold 25px fira sans';
+c.font = 'bold 25px firasans';
 c.fillText("Home", 10, 5);
 c.fill();
