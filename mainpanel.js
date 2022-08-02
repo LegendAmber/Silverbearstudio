@@ -24,6 +24,6 @@ c.fill();
 c.beginPath();
 c.strokeStyle = 'white';
 c.lineWidth = 3;
-c.moveTo(100, 15);
-c.lineTo(100, 50);
+c.moveTo(105, 15);
+c.lineTo(105, 45);
 c.stroke();
