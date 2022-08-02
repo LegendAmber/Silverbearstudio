@@ -11,5 +11,6 @@ c.fill();
 
 //Enters new text
 c.beginPath();
+c.fillStyle = 'white';
 c.fillText("Home", 10, 5);
 c.fill();
