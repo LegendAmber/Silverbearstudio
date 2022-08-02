@@ -8,3 +8,8 @@ c.beginPath();
 c.fillStyle = 'black';
 c.fillRect(0, 0, innerWidth, innerHeight);
 c.fill();
+
+//Enters new text
+c.beginPath();
+c.fillText("Home", 10, 5);
+c.fill();
