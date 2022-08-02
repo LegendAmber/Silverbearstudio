@@ -1,5 +1,5 @@
 var canvas = document.querySelector('canvas');
-canvas.height = window.innerHeight / 3;
+canvas.height = window.innerHeight / 5;
 canvas.width = window.innerWidth;
 var c = canvas.getContext("2d");
 
