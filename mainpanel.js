@@ -38,4 +38,5 @@ c.stroke();
 //Loads icon 'right-corner'
 image.addEventListener('load', e => {
   c.drawImage(image, 1000, 20, imgSize, imgSize);
+  console.log(imgSize);
 });
