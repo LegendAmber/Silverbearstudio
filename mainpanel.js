@@ -3,7 +3,7 @@ canvas.height = window.innerHeight / 16;
 canvas.width = window.innerWidth;
 var c = canvas.getContext("2d");
 var image = document.getElementById('icoimg');
-var imgSize = 30;
+
 //Path begins
 c.beginPath();
 c.fillStyle = 'black';
@@ -37,6 +37,5 @@ c.stroke();
 
 //Loads icon 'right-corner'
 image.addEventListener('load', e => {
-  c.drawImage(image, 1000, 20, imgSize, imgSize);
+  c.drawImage(image, 1000, 20, 35, 35);
 });
-console.log(imgSize);
