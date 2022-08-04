@@ -20,6 +20,10 @@ c.beginPath();
 c.fillText("Game", 110, 32.5);
 c.fill();
 
+c.beginPath();
+c.fillText("Meetings", 190, 32.5);
+c.fill();
+
 //Enters spacing
 c.beginPath();
 c.strokeStyle = 'white';
