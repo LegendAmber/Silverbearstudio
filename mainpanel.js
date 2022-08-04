@@ -2,7 +2,7 @@ var canvas = document.querySelector('canvas');
 canvas.height = window.innerHeight / 16;
 canvas.width = window.innerWidth;
 var c = canvas.getContext("2d");
-
+var image = document.getElementById('icoimg');
 //Path begins
 c.beginPath();
 c.fillStyle = 'black';
@@ -33,3 +33,8 @@ c.lineTo(102.5, 42.5);
 c.moveTo(182.5, 12.5);
 c.lineTo(182.5, 42.5);
 c.stroke();
+
+//Loads icon 'right-corner'
+image.addEventListener('load', e => {
+  c.drawImage(image, 1200, 20);
+});
