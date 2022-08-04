@@ -37,5 +37,5 @@ c.stroke();
 
 //Loads icon 'right-corner'
 image.addEventListener('load', e => {
-  c.drawImage(image, 1000, 20, 35, 35);
+  c.drawImage(image, 1000, 20);
 });
