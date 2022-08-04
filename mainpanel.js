@@ -40,3 +40,7 @@ c.stroke();
 image.addEventListener('load', e => {
   c.drawImage(image, 1200, 10, imgSize, imgSize);
 });
+
+document.addEventListener('click', e => {
+  console.log("clicked");
+});
