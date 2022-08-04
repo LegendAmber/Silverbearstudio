@@ -3,7 +3,7 @@ canvas.height = window.innerHeight / 16;
 canvas.width = window.innerWidth;
 var c = canvas.getContext("2d");
 var image = document.getElementById('icoimg');
-var imgSize = canvas.height / 2;
+var imgSize = 30;
 //Path begins
 c.beginPath();
 c.fillStyle = 'black';
