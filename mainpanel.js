@@ -38,15 +38,16 @@ c.lineTo(182.5, 42.5);
 c.stroke();
 
 document.addEventListener('click', e => {
-  console.log("clicked");
+  
 });
 
 function draw(){
   requestAnimationFrame(draw);
+  c.clearRect(0, 0, canvas.width, canvas.height);
   //Loads icon 'right-corner'
-/*image.addEventListener('load', e => {
+image.addEventListener('load', e => {
   c.drawImage(image, imgPos, 10, imgSize, imgSize);
-});*/
+});
   console.log("works");
 }
 draw();
