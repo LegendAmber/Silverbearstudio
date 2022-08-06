@@ -4,7 +4,7 @@ canvas.width = window.innerWidth;
 var c = canvas.getContext("2d");
 var image = document.getElementById('icoimg');
 var imgSize = canvas.height / 2 + 2;
-var imgPos = canvas.width - 100;
+var imgPos = canvas.width - 60;
 
 //Path begins
 c.beginPath();
@@ -37,11 +37,14 @@ c.moveTo(182.5, 12.5);
 c.lineTo(182.5, 42.5);
 c.stroke();
 
-//Loads icon 'right-corner'
-image.addEventListener('load', e => {
-  c.drawImage(image, imgPos, 10, imgSize, imgSize);
-});
-
 document.addEventListener('click', e => {
   console.log("clicked");
 });
+
+function draw(){
+  requestAnimationFrame(draw);
+  //Loads icon 'right-corner'
+image.addEventListener('load', e => {
+  c.drawImage(image, imgPos, 10, imgSize, imgSize);
+});
+}
