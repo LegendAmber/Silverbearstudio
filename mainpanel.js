@@ -42,9 +42,10 @@ document.addEventListener('click', e => {
 });
 
 function draw(){
-  requestAnimationFrame(draw);
+  c.requestAnimationFrame(draw);
   //Loads icon 'right-corner'
 image.addEventListener('load', e => {
   c.drawImage(image, imgPos, 10, imgSize, imgSize);
 });
+  console.log("works");
 }
