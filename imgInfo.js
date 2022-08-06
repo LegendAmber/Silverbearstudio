@@ -1,2 +1,2 @@
 var img = document.getElementById("icoimg");
-img.style.position = "fixed; left:20";
+img.style.position = "fixed; left:800";
