@@ -4,7 +4,7 @@ canvas.width = window.innerWidth;
 var c = canvas.getContext("2d");
 var image = document.getElementById('icoimg');
 var imgSize = canvas.height / 2 + 2;
-var imgPos = canvas.width - 20;
+var imgPos = canvas.width - 100;
 
 //Path begins
 c.beginPath();
