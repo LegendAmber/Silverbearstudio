@@ -6,7 +6,18 @@ var image = document.getElementById('icoimg');
 var imgSize = canvas.height / 2 + 2;
 var imgPos = canvas.width - 60;
 
-//Path begins
+document.addEventListener('click', e => {
+  
+});
+
+function draw(){
+  requestAnimationFrame(draw);
+  c.clearRect(0, 0, canvas.width, canvas.height);
+  //Loads icon 'right-corner'
+image.addEventListener('load', e => {
+  c.drawImage(image, imgPos, 10, imgSize, imgSize);
+});
+  //Path begins
 c.beginPath();
 c.fillStyle = 'black';
 c.fillRect(0, 0, innerWidth, innerHeight);
@@ -36,18 +47,5 @@ c.lineTo(102.5, 42.5);
 c.moveTo(182.5, 12.5);
 c.lineTo(182.5, 42.5);
 c.stroke();
-
-document.addEventListener('click', e => {
-  
-});
-
-function draw(){
-  requestAnimationFrame(draw);
-  c.clearRect(0, 0, canvas.width, canvas.height);
-  //Loads icon 'right-corner'
-image.addEventListener('load', e => {
-  c.drawImage(image, imgPos, 10, imgSize, imgSize);
-});
-  console.log("works");
 }
 draw();
