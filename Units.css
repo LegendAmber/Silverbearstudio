@@ -31,3 +31,6 @@
     ul::selection{
       background-color: rgba(226, 180, 89, 0.5);
     }
+    embed{
+      background-color: rgba(226, 180, 89, 0.5);
+    }
