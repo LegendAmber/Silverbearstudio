@@ -66,3 +66,7 @@
     div::selection{
       background-color: rgba(226, 180, 89, 0.5);
     }
+    
+    footer {
+      box-shadow: 0 50vh 0 50vh darkslategray;
+    }
