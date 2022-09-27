@@ -1,36 +1,68 @@
-    p::selection{
+    p::selection {
       background-color: rgba(226, 180, 89, 0.5);
     }
-    h1::selection{
+
+    h1::selection {
       background-color: rgba(226, 180, 89, 0.5);
     }
-    h2::selection{
+
+    h2::selection {
       background-color: rgba(226, 180, 89, 0.5);
     }
-    h3::selection{
+
+    h3::selection {
       background-color: rgba(226, 180, 89, 0.5);
     }
-    h4::selection{
+
+    h4::selection {
       background-color: rgba(226, 180, 89, 0.5);
     }
-    h5::selection{
+
+    h5::selection {
       background-color: rgba(226, 180, 89, 0.5);
     }
-    h6::selection{
+
+    h6::selection {
       background-color: rgba(226, 180, 89, 0.5);
     }
-    a::selection{
+
+    a::selection {
       background-color: rgba(226, 180, 89, 0.5);
     }
-    img::selection{
+
+    img::selection {
       background-color: rgba(226, 180, 89, 0.5);
     }
-    li::selection{
+
+    li::selection {
       background-color: rgba(226, 180, 89, 0.5);
     }
-    ul::selection{
+
+    ul::selection {
       background-color: rgba(226, 180, 89, 0.5);
     }
-    embed::selection{
+
+    embed::selection {
+      background-color: rgba(226, 180, 89, 0.5);
+    }
+
+    a {
+      color: white;
+    }
+
+    a:link {
+      color: white;
+      text-decoration: none;
+    }
+
+    a:hover {
+      color: grey;
+    }
+
+    a:visited {
+      visibility: none;
+    }
+
+    div::selection{
       background-color: rgba(226, 180, 89, 0.5);
     }
