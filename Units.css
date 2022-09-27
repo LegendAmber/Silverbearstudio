@@ -25,3 +25,6 @@
     img::selection{
       background-color: rgba(226, 180, 89, 0.5);
     }
+    li::selection{
+      background-color: rgba(226, 180, 89, 0.5);
+    }
