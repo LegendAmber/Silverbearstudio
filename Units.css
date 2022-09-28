@@ -145,6 +145,7 @@
     }
     body{
       background-color: gray;
+      margin: 0px;
     }
     header{
       background-color: darkslategray;
