@@ -152,5 +152,5 @@
       padding: 10px;
     }
     .login{
-      align-content: right;
+      position: relative;
     }
