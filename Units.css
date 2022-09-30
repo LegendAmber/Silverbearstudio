@@ -157,8 +157,3 @@
       width: 30px;
       height: 30px;
     }
-    
-    .login:hover{
-      color-scheme: gray;
-      mask-image: url(Login-0.jpg);
-    }
