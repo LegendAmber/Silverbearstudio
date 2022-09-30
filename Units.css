@@ -151,6 +151,8 @@
       background-color: darkslategray;
       padding: 10px;
     }
+
     .login{
-      background-color: white;
+      width: 20px;
+      height: 20px;
     }
