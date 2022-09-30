@@ -159,6 +159,6 @@
     }
     
     .login:hover{
-      background-color: gray;
+      color: gray;
       mask-image: url(Login-0.jpg);
     }
