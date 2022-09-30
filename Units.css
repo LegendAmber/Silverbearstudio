@@ -155,5 +155,5 @@
     .login{
       width: 30px;
       height: 30px;
-      align-content: right;
+      box-align: right;
     }
