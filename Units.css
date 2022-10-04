@@ -94,18 +94,11 @@
       box-shadow: 0 50vh 0 50vh darkslategray;
     }
 
-    head{
-      padding-left: 0px;
-      padding-right: 0px;
-    }
-    
     body {
       background-color: black;
-      margin: 0px;
+      margin: 20px;
       font-family: 'Times New Roman', Times, serif;
       color: aliceblue;
-      padding-left: 20px;
-      padding-right: 20px;
     }
 
     header {
