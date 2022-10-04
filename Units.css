@@ -94,6 +94,10 @@
       box-shadow: 0 50vh 0 50vh darkslategray;
     }
 
+    head{
+      padding-left: 0px;
+      padding-right: 0px;
+    }
     body {
       background-color: black;
       margin: 0px;
