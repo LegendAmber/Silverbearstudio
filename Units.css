@@ -147,7 +147,9 @@
     body{
       background-color: black;
       margin: 0px;
+      color: aliceblue;
     }
+
     header{
       background-color: darkslategray;
       padding: 10px;
