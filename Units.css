@@ -71,54 +71,6 @@
       box-shadow: 0 50vh 0 50vh darkslategray;
     }
 
-    p::-moz-selection {
-      background-color: rgba(226, 180, 89, 0.5);
-    }
-
-    h1::-moz-selection {
-      background-color: rgba(226, 180, 89, 0.5);
-    }
-
-    h2::-moz-selection {
-      background-color: rgba(226, 180, 89, 0.5);
-    }
-
-    h3::-moz-selection {
-      background-color: rgba(226, 180, 89, 0.5);
-    }
-
-    h4::-moz-selection {
-      background-color: rgba(226, 180, 89, 0.5);
-    }
-
-    h5::-moz-selection {
-      background-color: rgba(226, 180, 89, 0.5);
-    }
-
-    h6::-moz-selection {
-      background-color: rgba(226, 180, 89, 0.5);
-    }
-
-    a::-moz-selection {
-      background-color: rgba(226, 180, 89, 0.5);
-    }
-
-    img::-moz-selection {
-      background-color: rgba(226, 180, 89, 0.5);
-    }
-
-    li::-moz-selection {
-      background-color: rgba(226, 180, 89, 0.5);
-    }
-
-    ul::-moz-selection {
-      background-color: rgba(226, 180, 89, 0.5);
-    }
-
-    embed::-moz-selection {
-      background-color: rgba(226, 180, 89, 0.5);
-    }
-
     a {
       color: white;
       font-size: 30px;
@@ -135,10 +87,6 @@
 
     a:visited {
       visibility: none;
-    }
-
-    div::-moz-selection {
-      background-color: rgba(226, 180, 89, 0.5);
     }
 
     footer {
