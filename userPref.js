@@ -3,6 +3,7 @@ var bodyTheme = document.querySelector('body');
 const DARK_MODE = 'dark';
 const LIGHT_MODE = 'light';
 const DEFAULT_MODE = DARK_MODE;
+var dif = 1;
 
 init();
 
@@ -22,12 +23,14 @@ function setMode(mode = DEFAULT_MODE) {
     bodyTheme.style.backgroundColor = "black";
     bodyTheme.style.color = "white";
     document.body.classList.add(DARK_MODE);
+    dif = 0;
   }
   else if (mode === LIGHT_MODE){
     image.src = "sun.png";
     bodyTheme.style.backgroundColor = "white";
     bodyTheme.style.color = "black";
     document.body.classList.remove(DARK_MODE);
+    dif = 1;
   }
 }
 
@@ -39,3 +42,17 @@ image.addEventListener('click', e => {
     sessionStorage.setItem('mode', newMode);
   }
 });
+
+function update(){
+  requestAnimationFrame(update);
+
+  if (dif = 0){
+    bodyTheme.style.backgroundColor = "white";
+    bodyTheme.style.color = "black";
+  }
+  if (dif =  1){
+    bodyTheme.style.backgroundColor = "black";
+    bodyTheme.style.color = "white";
+  }
+  
+}
