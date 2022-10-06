@@ -111,5 +111,5 @@
       height: 30px;
     }
     .login:hover{
-      background-image: image("Login-0.jpg");
+      opacity: 0.7;
     }
