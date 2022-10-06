@@ -94,13 +94,6 @@
       box-shadow: 0 50vh 0 50vh darkslategray;
     }
 
-    body {
-      background-color: black;
-      margin: 0px;
-      font-family: 'Times New Roman', Times, serif;
-      color: aliceblue;
-    }
-
     header {
       background-color: darkslategray;
       padding: 10px;
