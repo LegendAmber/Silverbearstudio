@@ -42,18 +42,3 @@ image.addEventListener('click', e => {
     sessionStorage.setItem('mode', newMode);
   }
 });
-
-function update(){
-  requestAnimationFrame(update);
-
-  if (dif = 0){
-    bodyTheme.style.backgroundColor = "white";
-    bodyTheme.style.color = "black";
-  }
-  if (dif =  1){
-    bodyTheme.style.backgroundColor = "black";
-    bodyTheme.style.color = "white";
-  }
-}
-
-update();
