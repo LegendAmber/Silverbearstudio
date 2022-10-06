@@ -5,7 +5,6 @@ const LIGHT_MODE = 'light';
 const DEFAULT_MODE = DARK_MODE;
 
 init();
-document.addEventListener('load', e => {
 
 function init() {
   let storedMode = sessionStorage.getItem('mode');
@@ -39,6 +38,4 @@ image.addEventListener('click', e => {
     setMode(newMode);
     sessionStorage.setItem('mode', newMode);
   }
-});
-
 });
