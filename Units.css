@@ -111,5 +111,6 @@
       height: 30px;
     }
     .login:hover{
-      src: url(Login-0.jpg);
+      display: none;
+      background-image: image("Login-0.jpg");
     }
