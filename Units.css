@@ -111,6 +111,5 @@
       height: 30px;
     }
     .login:hover{
-      display: none;
       background-image: image("Login-0.jpg");
     }
