@@ -5,12 +5,13 @@ const LIGHT_MODE = 'light';
 const DEFAULT_MODE = DARK_MODE;
 
 init();
+document.onload(e => {
 
 function init() {
-  let storedMode = window.sessionStorage.getItem('mode');
+  let storedMode = sessionStorage.getItem('mode');
   if (!storedMode) {
     storedMode = DEFAULT_MODE;
-    window.sessionStorage.setItem('mode', DEFAULT_MODE);
+    sessionStorage.setItem('mode', DEFAULT_MODE);
   }
   setMode(storedMode);
 }
@@ -32,10 +33,12 @@ function setMode(mode = DEFAULT_MODE) {
 }
 
 image.addEventListener('click', e => {
-  let mode = window.sessionStorage.getItem('mode');
+  let mode = sessionStorage.getItem('mode');
   if (mode) {
     let newMode = mode == DARK_MODE ? LIGHT_MODE : DARK_MODE;
     setMode(newMode);
-    window.sessionStorage.setItem('mode', newMode);
+    sessionStorage.setItem('mode', newMode);
   }
+});
+
 });
