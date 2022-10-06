@@ -5,7 +5,7 @@ const LIGHT_MODE = 'light';
 const DEFAULT_MODE = DARK_MODE;
 
 init();
-document.onload(e => {
+document.addEventListener('load', e => {
 
 function init() {
   let storedMode = sessionStorage.getItem('mode');
