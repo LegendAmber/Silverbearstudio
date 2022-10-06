@@ -1,5 +1,5 @@
 const image = document.getElementById("afcabe54-5230-4d08-afac-20bbe924209d");
-var body = document.querySelector('body');
+var bodyTheme = document.querySelector('body');
 const DARK_MODE = 'dark';
 const LIGHT_MODE = 'light';
 const DEFAULT_MODE = DARK_MODE;
@@ -19,10 +19,14 @@ function init() {
 function setMode(mode = DEFAULT_MODE) {
   if (mode === DARK_MODE){
     image.src = "moon.png";
+    bodyTheme.style.backgroundColor = "black";
+    bodyTheme.style.color = "white";
     document.body.classList.add(DARK_MODE);
   }
   else if (mode === LIGHT_MODE){
     image.src = "sun.png";
+    bodyTheme.style.backgroundColor = "white";
+    bodyTheme.style.color = "black";
     document.body.classList.remove(DARK_MODE);
   }
 }
