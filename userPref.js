@@ -54,5 +54,6 @@ function update(){
     bodyTheme.style.backgroundColor = "black";
     bodyTheme.style.color = "white";
   }
-  
 }
+
+update();
