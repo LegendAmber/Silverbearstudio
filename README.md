@@ -1,5 +1,2 @@
 # Silver bear studios website. 
-
-## This is posted as a website that is live at: https://silverbear.vercel.app 
-
-## &#9432;All code is free sourced
+## &#9432; Website is currently down for maintenance, Website deployment will occur in a couple of days. 
