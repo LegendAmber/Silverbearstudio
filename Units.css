@@ -113,3 +113,7 @@
     .login:hover{
       opacity: 0.4;
     }
+
+    .mode:hover{
+      cursor: pointer;
+    }
